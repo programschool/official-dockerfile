@@ -1,3 +1,1 @@
-FROM official/ubuntu
-
-
+tag deno typescript

@@ -1,3 +1,1 @@
-FROM official/ubuntu
-
-
+FROM boxlayer.com/official/ubuntu
