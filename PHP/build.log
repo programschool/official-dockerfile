@@ -1,2 +1,0 @@
-docker login boxlayer.com
-docker push boxlayer.com/official/php
