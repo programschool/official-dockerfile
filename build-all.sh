@@ -1,35 +1,101 @@
 #!/usr/bin/env bash
 
-docker build . -f C/Dockerfile -t boxlayer.com/official/c:latest
-docker build . -f C#/Dockerfile -t boxlayer.com/official/c-sharp:latest
-docker build . -f C++/Dockerfile -t boxlayer.com/official/cpp:latest
-docker build . -f CoffeeScript/Dockerfile -t boxlayer.com/official/coffeescript:latest
-docker build . -f CSS/Dockerfile -t boxlayer.com/official/css:latest
-docker build . -f Dart/Dockerfile -t boxlayer.com/official/dart:latest
-docker build . -f Deno/Dockerfile -t boxlayer.com/official/deno:latest
-docker build . -f Golang/Dockerfile -t boxlayer.com/official/golang:latest
-docker build . -f Groovy/Dockerfile -t boxlayer.com/official/groovy:latest
-docker build . -f HTML/Dockerfile -t boxlayer.com/official/html:latest
-docker build . -f Java/Dockerfile -t boxlayer.com/official/java:latest
-docker build . -f Java8/Dockerfile -t boxlayer.com/official/java8:latest
-docker build . -f JavaScript/Dockerfile -t boxlayer.com/official/javascript:latest
-docker build . -f Kotlin/Dockerfile -t boxlayer.com/official/kotlin:latest
-docker build . -f Mariadb/Dockerfile -t boxlayer.com/official/mariadb:latest
-docker build . -f Memcached/Dockerfile -t boxlayer.com/official/memcached:latest
-docker build . -f Mongo/Dockerfile -t boxlayer.com/official/mongo:latest
-docker build . -f Mysql/Dockerfile -t boxlayer.com/official/mysql:latest
-docker build . -f Nginx/Dockerfile -t boxlayer.com/official/nginx:latest
-docker build . -f Node/Dockerfile -t boxlayer.com/official/node:latest
-docker build . -f Objective-C/Dockerfile -t boxlayer.com/official/objective-c:latest
-docker build . -f Perl/Dockerfile -t boxlayer.com/official/perl:latest
-docker build . -f PHP/Dockerfile -t boxlayer.com/official/php:latest
-docker build . -f Postgres/Dockerfile -t boxlayer.com/official/postgres:latest
-docker build . -f Python/Dockerfile -t boxlayer.com/official/python:latest
-docker build . -f Redis/Dockerfile -t boxlayer.com/official/redis:latest
-docker build . -f Ruby/Dockerfile -t boxlayer.com/official/ruby:latest
-docker build . -f Rust/Dockerfile -t boxlayer.com/official/rust:latest
-docker build . -f Scala/Dockerfile -t boxlayer.com/official/scala:latest
-docker build . -f Shell/Dockerfile -t boxlayer.com/official/shell:latest
-docker build . -f Swift/Dockerfile -t boxlayer.com/official/swift:latest
-docker build . -f TypeScript/Dockerfile -t boxlayer.com/official/typescript:latest
-docker build . -f Ubuntu/Dockerfile -t boxlayer.com/official/ubuntu:latest
+cd C
+pscli . official/c:latest 2>&1 > /dev/null &
+cd ..
+cd C#
+pscli . official/c-sharp:latest 2>&1 > /dev/null &
+cd ..
+cd C++
+pscli . official/cpp:latest 2>&1 > /dev/null &
+cd ..
+cd CoffeeScript
+pscli . official/coffeescript:latest 2>&1 > /dev/null &
+cd ..
+cd CSS
+pscli . official/css:latest 2>&1 > /dev/null &
+cd ..
+cd Dart
+pscli . official/dart:latest 2>&1 > /dev/null &
+cd ..
+cd Deno
+pscli . official/deno:latest 2>&1 > /dev/null &
+cd ..
+cd Golang
+pscli . official/golang:latest 2>&1 > /dev/null &
+cd ..
+cd Groovy
+pscli . official/groovy:latest 2>&1 > /dev/null &
+cd ..
+cd HTML
+pscli . official/html:latest 2>&1 > /dev/null &
+cd ..
+cd Java
+pscli . official/java:latest 2>&1 > /dev/null &
+cd ..
+cd Java8
+pscli . official/java8:latest 2>&1 > /dev/null &
+cd ..
+cd JavaScript
+pscli . official/javascript:latest 2>&1 > /dev/null &
+cd ..
+cd Kotlin
+pscli . official/kotlin:latest 2>&1 > /dev/null &
+cd ..
+cd Mariadb
+pscli . official/mariadb:latest 2>&1 > /dev/null &
+cd ..
+cd Memcached
+pscli . official/memcached:latest 2>&1 > /dev/null &
+cd ..
+cd Mongo
+pscli . official/mongo:latest 2>&1 > /dev/null &
+cd ..
+cd Mysql
+pscli . official/mysql:latest 2>&1 > /dev/null &
+cd ..
+cd Nginx
+pscli . official/nginx:latest 2>&1 > /dev/null &
+cd ..
+cd Node
+pscli . official/node:latest 2>&1 > /dev/null &
+cd ..
+cd Objective-C
+pscli . official/objective-c:latest 2>&1 > /dev/null &
+cd ..
+cd Perl
+pscli . official/perl:latest 2>&1 > /dev/null &
+cd ..
+cd PHP
+pscli . official/php:latest 2>&1 > /dev/null &
+cd ..
+cd Postgres
+pscli . official/postgres:latest 2>&1 > /dev/null &
+cd ..
+cd Python
+pscli . official/python:latest 2>&1 > /dev/null &
+cd ..
+cd Redis
+pscli . official/redis:latest 2>&1 > /dev/null &
+cd ..
+cd Ruby
+pscli . official/ruby:latest 2>&1 > /dev/null &
+cd ..
+cd Rust
+pscli . official/rust:latest 2>&1 > /dev/null &
+cd ..
+cd Scala
+pscli . official/scala:latest 2>&1 > /dev/null &
+cd ..
+cd Shell
+pscli . official/shell:latest 2>&1 > /dev/null &
+cd ..
+cd Swift
+pscli . official/swift:latest 2>&1 > /dev/null &
+cd ..
+cd TypeScript
+pscli . official/typescript:latest 2>&1 > /dev/null &
+cd ..
+cd Ubuntu
+pscli . official/ubuntu:latest 2>&1 > /dev/null &
+cd ..
