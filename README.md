@@ -1,5 +1,5 @@
 ```dockerfile
-RUN curl -sSL build.boxlayer.com | bash
+RUN curl -sSL https://build.boxlayer.com | bash
 ```
 
 ```shell
