@@ -1,89 +1,89 @@
 #!/usr/bin/env bash
 
 cd C
-pscli . official/c 2>&1 > /dev/null &
+pscli . official/c
 cd ..
 cd C#
-pscli . official/c-sharp 2>&1 > /dev/null &
+pscli . official/c-sharp
 cd ..
 cd C++
-pscli . official/cpp 2>&1 > /dev/null &
+pscli . official/cpp
 cd ..
 cd CoffeeScript
-pscli . official/coffeescript 2>&1 > /dev/null &
+pscli . official/coffeescript
 cd ..
 cd Dart
-pscli . official/dart 2>&1 > /dev/null &
+pscli . official/dart
 cd ..
 cd Deno
-pscli . official/deno 2>&1 > /dev/null &
+pscli . official/deno
 cd ..
 cd Golang
-pscli . official/golang 2>&1 > /dev/null &
+pscli . official/golang
 cd ..
 cd Groovy
-pscli . official/groovy 2>&1 > /dev/null &
+pscli . official/groovy
 cd ..
 cd Java
-pscli . official/java 2>&1 > /dev/null &
+pscli . official/java
 cd ..
 cd Java8
-pscli . official/java8 2>&1 > /dev/null &
+pscli . official/java8
 cd ..
 cd Kotlin
-pscli . official/kotlin 2>&1 > /dev/null &
+pscli . official/kotlin
 cd ..
 cd Mariadb
-pscli . official/mariadb 2>&1 > /dev/null &
+pscli . official/mariadb
 cd ..
 cd Memcached
-pscli . official/memcached 2>&1 > /dev/null &
+pscli . official/memcached
 cd ..
 cd Mongo
-pscli . official/mongo 2>&1 > /dev/null &
+pscli . official/mongo
 cd ..
 cd Mysql
-pscli . official/mysql 2>&1 > /dev/null &
+pscli . official/mysql
 cd ..
 cd Nginx
-pscli . official/nginx 2>&1 > /dev/null &
+pscli . official/nginx
 cd ..
 cd Node
-pscli . official/node 2>&1 > /dev/null &
+pscli . official/node
 cd ..
 cd Objective-C
-pscli . official/objective-c 2>&1 > /dev/null &
+pscli . official/objective-c
 cd ..
 cd Perl
-pscli . official/perl 2>&1 > /dev/null &
+pscli . official/perl
 cd ..
 cd PHP
-pscli . official/php 2>&1 > /dev/null &
+pscli . official/php
 cd ..
 cd Postgres
-pscli . official/postgres 2>&1 > /dev/null &
+pscli . official/postgres
 cd ..
 cd Python
-pscli . official/python 2>&1 > /dev/null &
+pscli . official/python
 cd ..
 cd Redis
-pscli . official/redis 2>&1 > /dev/null &
+pscli . official/redis
 cd ..
 cd Ruby
-pscli . official/ruby 2>&1 > /dev/null &
+pscli . official/ruby
 cd ..
 cd Rust
-pscli . official/rust 2>&1 > /dev/null &
+pscli . official/rust
 cd ..
 cd Scala
-pscli . official/scala 2>&1 > /dev/null &
+pscli . official/scala
 cd ..
 cd Swift
-pscli . official/swift 2>&1 > /dev/null &
+pscli . official/swift
 cd ..
 cd TypeScript
-pscli . official/typescript 2>&1 > /dev/null &
+pscli . official/typescript
 cd ..
 cd Ubuntu
-pscli . official/ubuntu 2>&1 > /dev/null &
+pscli . official/ubuntu
 cd ..
