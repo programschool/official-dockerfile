@@ -6,7 +6,7 @@ cd ..
 cd C#
 pscli . official/c-sharp
 cd ..
-cd C++
+cd CPP
 pscli . official/cpp
 cd ..
 cd CoffeeScript
